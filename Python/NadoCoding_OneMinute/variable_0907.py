@@ -4,13 +4,13 @@
 price1 = 10000
 price2 = 20000
 message = "Allowance"
-print(price1, price2, message)
+print(price1, price2, message) # 10000 20000 Allowance
 
 # 변수 이름 규칙
 #1. 변수 이름은 문자, 숫자, 언더스코어(_)로 구성 가능
 name_123 = "LDG"
 _name_456 = "JHJ"
-print(name_123, _name_456)
+print(name_123, _name_456) # LDG JHJ
 
 #2. 변수는 공백이나 특수문자(!, @, #, $, %, ^, &, *, (, ), -, + 등) 사용 불가
 #na me = "LDG" / $_name = "JHJ" 사용불가
@@ -22,7 +22,7 @@ print(name_123, _name_456)
 name = "Hong"
 NAME = "Kim"
 Name = "Park"
-print(name, NAME, Name)
+print(name, NAME, Name) # Hong Kim Park
 
 #5. 변수는 예약어를 사용할 수 없음
 # 예약어란 파이썬에서 이미 사용하고 있는 단어를 의미함
@@ -32,4 +32,4 @@ print(name, NAME, Name)
 #6. 변수 이름 설정 시 소문자 단어나 _를 사용하여 단어를 구분하는 것이 가독성이 좋음
 variable = "variable" # VARIABLE 보다 소문자로
 my_name = "dong_geon" # myname, myName 보다 _를 사용하여 구분하는 것이 가독성이 좋음
-print(variable, my_name)
+print(variable, my_name) # variable dong_geon
